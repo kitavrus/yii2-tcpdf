@@ -1,0 +1,23 @@
+{
+    "name": "cinghie/yii2-tcpdf",
+    "description": "Yii2 TCPDF to load TCPDF libraries in a Yii2 site.",
+    "keywords": ["yii2", "pdf", "TCPDF"],
+    "homepage": "https://github.com/cinghie/yii2-tcpdf",
+    "type": "yii2-extension",
+    "license": "BSD 3-Clause",
+    "authors": [
+        {
+            "name": "Giandomenico Olini",
+            "email": "info@gogodigital.it",
+            "homepage": "http://www.gogodigital.it/"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cinghie\\tcpdf\\": ""
+        }
+    }
+}
