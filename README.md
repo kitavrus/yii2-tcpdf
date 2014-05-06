@@ -43,10 +43,10 @@ to the ```require``` section of your `composer.json` file.
 ]</pre>
 	</li>
 	<li>Add in your SiteController the action:
-		public function actionTcpdf()
+		<pre>public function actionTcpdf()
     {
 		return $this->render('tcpdf');
-	}
+	}</pre>
 	</li>
 	<li>Add in your view/site folder the file tcpdf.php from example folder</li>
 	<li>Now you can view the example at the links: 
