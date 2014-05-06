@@ -56,12 +56,12 @@ to the ```require``` section of your `composer.json` file.
 		</ul>
 	</li>
 </ul>
-## Insert TCPDF in your extension you must only:
+## Insert TCPDF in your extension
 <ul>
-	<li><pre>// Load Component Yii2 TCPDF 
-\Yii::$app->get('tcpdf');</pre></li>
-	<li><pre>// Insert here your TCPDF Code 
-...</pre></li>
-	<li><pre>// Close Yii2
-\Yii::$app->end();</pre></li>
+	<li>Load Component Yii2 TCPDF
+		<pre>\Yii::$app->get('tcpdf');</pre></li>
+	<li>Insert here your TCPDF Code 
+		<pre>...</pre></li>
+	<li>Close Yii2
+		<pre>\Yii::$app->end();</pre></li>
 </ul>
