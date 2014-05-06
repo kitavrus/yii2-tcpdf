@@ -10,9 +10,25 @@ Yii2 TCPDF to load TCPDF libraries in a Yii2 site
   <li>0.1 - Initial Releases</li>
 </ul>
 
-<h2>INSTALLATION USING COMPOSER</h2>
+## Installation
 
-<h2>CONFIGURATION</h2>
+The preferred way to install this extension is through [composer](http://getcomposer.org/download/).
+
+Either run
+
+```
+$ php composer.phar require cinghie/yii2-tcpdf "dev-master"
+```
+
+or add
+
+```
+"cinghie/yii2-tcpdf": "dev-master"
+```
+
+to the ```require``` section of your `composer.json` file.
+
+## CONFIGURATION
 
 <ul>
 	<li>Add in your configuration file, in component section:
