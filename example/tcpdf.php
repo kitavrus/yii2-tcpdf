@@ -17,6 +17,10 @@ $pdf->SetKeywords('TCPDF, PDF, example, test, guide');
 $pdf->setHeaderFont(Array(PDF_FONT_NAME_MAIN, '', PDF_FONT_SIZE_MAIN));
 $pdf->setFooterFont(Array(PDF_FONT_NAME_DATA, '', PDF_FONT_SIZE_DATA));
 
+// set default header data
+$pdf->SetHeaderData(PDF_HEADER_LOGO, PDF_HEADER_LOGO_WIDTH, 'Yii2 TCPDF Example', 'Gogodigital - Wide ICT Solutions | gogodigital.it', array(0,64,255), array(0,64,128));
+$pdf->setFooterData(array(0,64,0), array(0,64,128));
+
 // set default monospaced font
 $pdf->SetDefaultMonospacedFont(PDF_FONT_MONOSPACED);
 
@@ -65,7 +69,7 @@ $pdf->Output('yii2_tcpdf_example.pdf', 'I');
 // END OF FILE
 //============================================================+
 
-// Close Component
+// Close Yii2
 \Yii::$app->end();
 
 ?>
