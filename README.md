@@ -59,6 +59,8 @@ to the ```require``` section of your `composer.json` file.
 		<ul>
 			<li>// Load Component Yii2 TCPDF 
 \Yii::$app->get('tcpdf');</li>
+			<li>// Insert here your TCPDF Code 
+...</li>
 			<li>// Close Yii2
 \Yii::$app->end();</li>
 		</ul>
