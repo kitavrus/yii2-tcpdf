@@ -1,5 +1,18 @@
 <?php
 
+/**
+ * @copyright Copyright &copy;2014 Giandomenico Olini
+ * @company Gogodigital - Wide ICT Solutions 
+ * @website http://www.gogodigital.it
+ * @package yii2-tcpdf
+ * @github https://github.com/cinghie/yii2-tcpdf
+ * @license GNU GENERAL PUBLIC LICENSE VERSION 3
+ * @tcpdf library 6.0.075
+ * @tcpdf documentation http://www.tcpdf.org/docs.php
+ * @tcpdf examples http://www.tcpdf.org/examples.php
+ */
+
+
 // Load Component Yii2 TCPDF 
 \Yii::$app->get('tcpdf');
 
